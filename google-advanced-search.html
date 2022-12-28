@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Google Advanced Search</title>
+</head>
+<body>
+
+    <div class="google__contain">
+        <img src="/googlelogo_color.png" alt="Google logo">
+        <h2>Advanced Search</h2>
+    </div>
+
+    <div class="google__links">
+        <a href="index.html">Back to Search</a>
+    </div>
+
+    <form action="https://www.google.com/search" class="google__form">
+        <div class="google__inputs google__inputs--1">
+            <h2>Find pages with...</h2>
+            <h4 style="line-height: 4;">To do this in the search box</h4>
+        </div>
+        <div class="google__inputs">
+            <h5>all these words:</h5>
+            <input type="search" name="as_q">
+            <h6>Type the important words: tri-color rat terrier</h6>
+        </div>
+        <div class="google__inputs">
+            <h5>this exact word or phrase:</h5>
+            <input type="search" name="as_epq">
+            <h6>Put the words in quotes: "rat terrier"</h6>
+        </div>
+        <div class="google__inputs">
+            <h5>any of these words:</h5>
+            <input type="search" name="as_oq">
+            <h6>Type or between all the words you want: miniature or standard</h6>
+        </div>
+        <div class="google__inputs">
+            <h5>none of these words:</h5>
+            <input type="search" name="as_eq">
+            <h6>Put a minus sign just before words you don't want: <br> -rodent, "Jack Russell"</h6>
+        </div>
+        <div class="google__inputs google__inputs--2">
+            <h5 class="google__text">numbers ranging from</h5>
+            <input type="search" name="as_nlo" style="margin-right: 1.8rem;">
+            <h5 class="google__text">to</h5>
+            <input type="search" name="as_nhi" style="margin-left: -6.5rem;">
+            <h6 class="google__text"> Put two full stops between the numbers and add a unit of measurement:<br> 10..35 kg, £300..£500, 2010..2011</h6>
+        </div>
+
+        <div class="google__btn">
+            <button>Advanced Search</button>
+        </div>
+    </form>
+</body>
+</html>
